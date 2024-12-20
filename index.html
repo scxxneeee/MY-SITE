@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-портфолио</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Мое Лого</div>
+        <nav>
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>Добро пожаловать!</h1>
+        <p>Я, Хамматов Ярослав, начинающий веб-разработчик и это мой сайт-портфолио.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Мои работы</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="/img/pchela.jpg" alt="Проект 1" class="project-image">
+                <h3>Статья про пчел</h3>
+               
+                <a href="https://scxxneeee.github.io/pchela/" class="project-button">Перейти к проекту</a>
+            </div>
+            <div class="project">
+                <img src="/img/vizitka.jpg" alt="Проект 2" class="project-image">
+                <h3>Сайт визитка</h3>
+                
+                <a href="https://scxxneeee.github.io/vizitka/" class="project-button">Перейти к проекту</a>
+            </div>
+            <div class="project">
+                <img src="/img/Firstsite.png" alt="Проект 2" class="project-image">
+                <h3>Мой первый сайт</h3>
+               
+                <a href="https://scxxneeee.github.io/firstsite/" class="project-button">Перейти к проекту</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Свяжитесь со мной</h2>
+        <form action="#" method="post">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required placeholder="Введите имя">
+
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="email" required placeholder="Введите email">
+
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" required placeholder="Ваше сообщение"></textarea>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+            <li class="social-icon__item">
+                <a class="social-icon__link" href="https://t.me/tonbitpay">
+                    <img src="/img/iconizer-8547122_telegram_plane_icon.svg" alt="Telegram" >
+                </a>
+            </li>
+            <li class="social-icon__item">
+                <a class="social-icon__link" href="https://github.com/scxxneeee">
+                    <img src="/img/iconizer-211904_social_github_icon.svg" alt="github" >
+                </a>
+            </li>
+
+        </ul>
+        <p>Челябинск 2024 г.</p>
+    </footer>
+    
+    
+    </body>
+    
+    
+    </html> 
+</body>
+</html>
